@@ -1,4 +1,4 @@
-services:
+Toservices:
   - type: web
     name: wzml-bot
     runtime: python
@@ -9,9 +9,9 @@ services:
         scope: run
       - key: 7640440461
         scope: run
-      - key: 
+      - key: 24960581
         scope: run
-      - key: TELEGRAM_HASH
+      - key: dee30db5ee77cf1cc0297017db4f3883
         scope: run
       - key: DOWNLOAD_DIR
         value: /tmp
