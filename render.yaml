@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: wzml-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python start.py
+    envVars:
+      - key: 8372510616:AAExtiaTk_lpVdm8Kij6f9hqVv3UHjz_Wi4
+        scope: run
+      - key: 7640440461
+        scope: run
+      - key: 
+        scope: run
+      - key: TELEGRAM_HASH
+        scope: run
+      - key: DOWNLOAD_DIR
+        value: /tmp
